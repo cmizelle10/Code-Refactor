@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Sets background color for website unless changed elsewhere */
+body {
+    background-color: #d9dcd6;
+}
+/* This sets style for header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Sets font size and keeps text on one line for header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Changes color for the "seo" part of "Horiseon" */
+.seo {
+    color: #d9dcd6;
+    display: inline;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+/* This keeps the "seo" on the same line as the rest of "Horiseon" */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* Sets color for links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Sets font size for all paragraph elements */
+p {
+    font-size: 16px;
+}
+/* Sets size and spacing for main image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* Sets style for content class */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* All items with H2 will have same bottom margin and font size */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Sets styling for Content boxes */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets styling for content box images */
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Sets styling for benefits class */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* All items with H3 will have same styling */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sets the color bottom margin for items in benefits class */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Sets styling for images in benefits class*/
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Sets styling for footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+
