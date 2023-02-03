@@ -35,7 +35,7 @@ body {
 
 .header nav ul {
     list-style-type: none;
-}
+} 
 /* This keeps the "seo" on the same line as the rest of "Horiseon" */
 .header nav ul li {
     display: inline-block;
